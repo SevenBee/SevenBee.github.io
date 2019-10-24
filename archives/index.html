@@ -6,14 +6,15 @@
   <meta name="keywords" content="">
   <meta name="description" content="奇客站">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="安装并部署博客 前往github.com创建一个账户 创建一个名为username .github.io 的新存储库，其中username是您在GitHub上的用户名（或组织名称） 转到要存储项目的文件夹，然后克隆新的存储库：   git clone https:&#x2F;&#x2F;github.com&#x2F; 用户名 &#x2F; 用户名 .github.io   下载并安装nodeJs 选一个即可，下载后安装时一路默认nex">
+<meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;23&#x2F;hello-world&#x2F;index.html">
+<meta property="og:title" content="使用github pages + hexo 搭建博客">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;24&#x2F;%E4%BD%BF%E7%94%A8github%20pages%20+%20hexo%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2&#x2F;index.html">
 <meta property="og:site_name" content="奇客站">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="安装并部署博客 前往github.com创建一个账户 创建一个名为username .github.io 的新存储库，其中username是您在GitHub上的用户名（或组织名称） 转到要存储项目的文件夹，然后克隆新的存储库：   git clone https:&#x2F;&#x2F;github.com&#x2F; 用户名 &#x2F; 用户名 .github.io   下载并安装nodeJs 选一个即可，下载后安装时一路默认nex">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-10-23T15:51:19.624Z">
+<meta property="og:updated_time" content="2019-10-24T11:13:32.345Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -149,6 +150,14 @@
 <ul>
     <li><div class="all active">全部文章<small>(2)</small></div></li>
     
+        
+            
+            <li><div data-rel="hexo">hexo<small>(1)</small></div>
+                
+            </li>
+            
+        
+    
 </ul>
 <div class="left-bottom">
     <div class="menus">
@@ -193,11 +202,23 @@
     </form>
     <div class="tags-list">
     
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color5">hexo</a>
+    </li>
+    
     <div class="clearfix"></div>
 </div>
 
     
     <nav id="title-list-nav">
+        
+        <a id="top" class="hexo "
+           href="/2019/10/24/%E4%BD%BF%E7%94%A8github%20pages%20+%20hexo%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="使用github pages + hexo 搭建博客">使用github pages + hexo 搭建博客</span>
+            <span class="post-date" title="2019-10-24 00:00:00">2019/10/24</span>
+        </a>
         
         <a  class=""
            href="/2019/10/23/hello-world/"
@@ -205,14 +226,6 @@
            data-author="" >
             <span class="post-title" title="Hello World">Hello World</span>
             <span class="post-date" title="2019-10-23 23:51:19">2019/10/23</span>
-        </a>
-        
-        <a  class=""
-           href="/2019/10/23/%E4%BD%BF%E7%94%A8github%20pages%20+%20hexo%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="使用github pages + hexo 搭建博客">使用github pages + hexo 搭建博客</span>
-            <span class="post-date" title="2019-10-23 23:10:56">2019/10/23</span>
         </a>
         
     </nav>
@@ -319,7 +332,7 @@
     /*作者、标签的自动补全*/
     $(function () {
         $('.search').AutoComplete({
-            'data': [],
+            'data': ['#hexo',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');
