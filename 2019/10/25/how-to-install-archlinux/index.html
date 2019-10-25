@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>使用github pages + hexo 搭建博客 | 奇客站</title>
-  <meta name="keywords" content=" hexo , Git ">
-  <meta name="description" content="使用github pages + hexo 搭建博客 | 奇客站">
+  <title>安装Arch Linux | 奇客站</title>
+  <meta name="keywords" content=" linux , Arch Linux , OS ">
+  <meta name="description" content="安装Arch Linux | 奇客站">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="页面未找到">
 <meta property="og:type" content="website">
@@ -275,9 +275,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-hexo-github-pages-create-own-blog" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-how-to-install-archlinux" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">使用github pages + hexo 搭建博客</h1>
+        <h1 class="article-title">安装Arch Linux</h1>
     
     <div class="article-meta">
         
@@ -285,30 +285,30 @@
         
         <span class="book">
             
-                <a href="javascript:" data-rel="工具">工具</a>/
-            
-                <a href="javascript:" data-rel="hexo">hexo</a>
+                <a href="javascript:" data-rel="linux">linux</a>
             
         </span>
         
         
         <span class="tag">
             
-            <a href="javascript:" class="color5">hexo</a>
+            <a href="javascript:" class="color1">linux</a>
             
-            <a href="javascript:" class="color4">Git</a>
+            <a href="javascript:" class="color1">Arch Linux</a>
+            
+            <a href="javascript:" class="color3">OS</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-10-25 12:51:45'>2019-10-24 19:47</time>
+        创建时间:<time class="date" title='更新时间: 2019-10-25 16:19:48'>2019-10-25 13:23</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:253</span>
+        <span>字数:795</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -338,7 +338,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#搭建Hexo"><span class="toc-text">搭建Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#环境介绍"><span class="toc-text">环境介绍</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-node-与-npm"><span class="toc-text">安装 node 与 npm</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Hexo"><span class="toc-text">安装 Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#初始化-blog"><span class="toc-text">初始化 blog</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#常用命令"><span class="toc-text">常用命令</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#创建github-pages"><span class="toc-text">创建github pages</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#注册github账户"><span class="toc-text">注册github账户</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#创建github远程库"><span class="toc-text">创建github远程库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装插件"><span class="toc-text">安装插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置Hexo"><span class="toc-text">配置Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#推送到服务器"><span class="toc-text">推送到服务器</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装介质"><span class="toc-text">安装介质</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#下载系统"><span class="toc-text">下载系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#将镜像写入到U盘"><span class="toc-text">将镜像写入到U盘</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装系统"><span class="toc-text">安装系统</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#进入BIOS设置U盘为第一启动项"><span class="toc-text">进入BIOS设置U盘为第一启动项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#检查网络"><span class="toc-text">检查网络</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更新网络时间"><span class="toc-text">更新网络时间</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#硬盘分区"><span class="toc-text">硬盘分区</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#格式化分区"><span class="toc-text">格式化分区</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#挂载分区"><span class="toc-text">挂载分区</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置软件源"><span class="toc-text">设置软件源</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装基本的系统"><span class="toc-text">安装基本的系统</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置Arch-Linux"><span class="toc-text">配置Arch Linux</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#生成挂载信息文件"><span class="toc-text">生成挂载信息文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#切换到新系统"><span class="toc-text">切换到新系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置时区"><span class="toc-text">设置时区</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置编码"><span class="toc-text">设置编码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置主机名"><span class="toc-text">设置主机名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置hosts文件"><span class="toc-text">配置hosts文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#用户账户配置"><span class="toc-text">用户账户配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装grub设置引导"><span class="toc-text">安装grub设置引导</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装图形界面"><span class="toc-text">安装图形界面</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -354,30 +354,53 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="搭建Hexo"><a href="#搭建Hexo" class="headerlink" title="搭建Hexo"></a>搭建Hexo</h2><h4 id="环境介绍"><a href="#环境介绍" class="headerlink" title="环境介绍"></a>环境介绍</h4><p>os: Arch Linux x86_64  </p>
-<h3 id="安装-node-与-npm"><a href="#安装-node-与-npm" class="headerlink" title="安装 node 与 npm"></a>安装 node 与 npm</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo pacman -S nodejs npm</span><br></pre></td></tr></table></figure>
+        <p>本文的安装主要对于使用UEFI引导启动的电脑</p>
+<h3 id="安装介质"><a href="#安装介质" class="headerlink" title="安装介质"></a>安装介质</h3><p>这里推荐使用U盘作为安装介质</p>
+<h3 id="下载系统"><a href="#下载系统" class="headerlink" title="下载系统"></a>下载系统</h3><p><a href="https://www.archlinux.org/download/" target="_blank" rel="noopener">https://www.archlinux.org/download/</a><br>下拉找到中国的镜像点<br><img src="/sevenbee.github.io/public/img/archlinux-download-China-mirror.png" alt=""><br>选 archlinux-yyyy.mm.dd-x86_64.iso  下载</p>
+<h3 id="将镜像写入到U盘"><a href="#将镜像写入到U盘" class="headerlink" title="将镜像写入到U盘"></a>将镜像写入到U盘</h3><p>windows下制作安装介质，推荐使用Rufus<br><a href="https://rufus.ie/" target="_blank" rel="noopener">https://rufus.ie/</a></p>
+<h2 id="安装系统"><a href="#安装系统" class="headerlink" title="安装系统"></a>安装系统</h2><h3 id="进入BIOS设置U盘为第一启动项"><a href="#进入BIOS设置U盘为第一启动项" class="headerlink" title="进入BIOS设置U盘为第一启动项"></a>进入BIOS设置U盘为第一启动项</h3><h3 id="检查网络"><a href="#检查网络" class="headerlink" title="检查网络"></a>检查网络</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ping -c qq.com</span><br></pre></td></tr></table></figure>
+<p>如果有持续输出内容，说明网络没有问题</p>
+<h3 id="更新网络时间"><a href="#更新网络时间" class="headerlink" title="更新网络时间"></a>更新网络时间</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ timedatectl set-ntp true</span><br></pre></td></tr></table></figure>
 
-<h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<h3 id="硬盘分区"><a href="#硬盘分区" class="headerlink" title="硬盘分区"></a>硬盘分区</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 查看存储设备  假设硬盘名为/dev/sda</span><br><span class="line">$ fdisk -l</span><br></pre></td></tr></table></figure>
+<p>创建两个分区：<br>第一个分区用于系统引导(512M)  /dev/sda1<br>第二个分区用于系统安装(剩余空间)    /dev/sda2</p>
+<h3 id="格式化分区"><a href="#格式化分区" class="headerlink" title="格式化分区"></a>格式化分区</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ mkfs.fat /dev/sda1</span><br><span class="line">$ mkfs.ext4 /dev/sda2</span><br></pre></td></tr></table></figure>
 
-<h3 id="初始化-blog"><a href="#初始化-blog" class="headerlink" title="初始化 blog"></a>初始化 blog</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init [folder]</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。  </p>
-</blockquote>
-<p>到这本地的blog就已经创建完成了</p>
-<h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"># 创建一个新的文章</span><br><span class="line">$ hexo new &lt;title&gt;</span><br><span class="line"></span><br><span class="line"># 删除生成的文件和缓存</span><br><span class="line">$ hexo clean</span><br><span class="line"></span><br><span class="line"># 生成静态文件</span><br><span class="line">$ hexo g</span><br><span class="line"></span><br><span class="line"># 部署网站</span><br><span class="line">$ hexo d</span><br><span class="line"></span><br><span class="line"># 启动本地服务器</span><br><span class="line">$ hexo s</span><br><span class="line"></span><br><span class="line"># 更多指令查询</span><br><span class="line">$ hexo h</span><br></pre></td></tr></table></figure>
+<h3 id="挂载分区"><a href="#挂载分区" class="headerlink" title="挂载分区"></a>挂载分区</h3><p>挂载新分区到 /mnt</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mount /dev/sda2 /mnt</span><br><span class="line">$ mount /dev/sda1 /mnt</span><br><span class="line">$ mkdir -p /mnt/boot/efi</span><br><span class="line">$ mount /dev/sda1 /mnt/boot/efi</span><br></pre></td></tr></table></figure>
 
-<h2 id="创建github-pages"><a href="#创建github-pages" class="headerlink" title="创建github pages"></a>创建github pages</h2><h3 id="注册github账户"><a href="#注册github账户" class="headerlink" title="注册github账户"></a>注册github账户</h3><p>前往<a href="https://github.com/" target="_blank" rel="noopener">github官网</a>创建一个账户</p>
-<h3 id="创建github远程库"><a href="#创建github远程库" class="headerlink" title="创建github远程库"></a>创建github远程库</h3><p>创建一个名为 XXX.github.io 的新存储库，其中XXX是您在GitHub上的用户名</p>
-<h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># Git部署程序插件</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="设置软件源"><a href="#设置软件源" class="headerlink" title="设置软件源"></a>设置软件源</h3><p>默认使用的是国外的软件源，下载速度巨慢，为了的下载体验着想，改为国内的软件源</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># nano /etc/pacman.d/mirrorlist</span><br></pre></td></tr></table></figure>
+<p>在最上面添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Server = http://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch</span><br></pre></td></tr></table></figure>
 
-<h3 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h3><p>修改 /_config.yml</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:XXX/XXXX.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line"># XXX为你的github用户名</span><br></pre></td></tr></table></figure>
+<h3 id="安装基本的系统"><a href="#安装基本的系统" class="headerlink" title="安装基本的系统"></a>安装基本的系统</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># pacstrap /mnt base base-devel</span><br></pre></td></tr></table></figure>
 
-<h3 id="推送到服务器"><a href="#推送到服务器" class="headerlink" title="推送到服务器"></a>推送到服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="配置Arch-Linux"><a href="#配置Arch-Linux" class="headerlink" title="配置Arch Linux"></a>配置Arch Linux</h2><h3 id="生成挂载信息文件"><a href="#生成挂载信息文件" class="headerlink" title="生成挂载信息文件"></a>生成挂载信息文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p>Hexo 主题<br><a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a><br>hexo官方文档<br><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/index.html</a></p>
-</blockquote>
+<h3 id="切换到新系统"><a href="#切换到新系统" class="headerlink" title="切换到新系统"></a>切换到新系统</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ arch-chroot /mnt</span><br></pre></td></tr></table></figure>
+
+<h3 id="设置时区"><a href="#设置时区" class="headerlink" title="设置时区"></a>设置时区</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</span><br><span class="line">$ hwclock --systohc</span><br></pre></td></tr></table></figure>
+<h3 id="设置编码"><a href="#设置编码" class="headerlink" title="设置编码"></a>设置编码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 编辑 /etc/locale.gen</span><br><span class="line">$ nano /etc/locale.gen</span><br><span class="line"></span><br><span class="line"># 找到zh_CN.UTF-8 UTF-8，取消前面的#</span><br><span class="line"># 保存退出</span><br><span class="line"></span><br><span class="line"># 重新加载配置</span><br><span class="line">$ locale-gen</span><br><span class="line"></span><br><span class="line"># 用nano编辑 /etc/locale.conf，加入一下内容</span><br><span class="line">LANG=en_US.UTF-8</span><br></pre></td></tr></table></figure>
+
+<h3 id="设置主机名"><a href="#设置主机名" class="headerlink" title="设置主机名"></a>设置主机名</h3><p>nano 编辑 /etc/hostname,在里面设置你的主机名，最好不要数字开头，不要使用中文<br>例如hellokitty</p>
+<h3 id="配置hosts文件"><a href="#配置hosts文件" class="headerlink" title="配置hosts文件"></a>配置hosts文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nano /etc/hosts</span><br></pre></td></tr></table></figure>
+<p>输入以下内容</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">127.0.0.1   localhost</span><br><span class="line">::1         localhost</span><br><span class="line">127.0.1.1   hellokitty.localdomain  hellokitty</span><br></pre></td></tr></table></figure>
+<p>hellokitty 换成你的主机名就行了</p>
+<h3 id="用户账户配置"><a href="#用户账户配置" class="headerlink" title="用户账户配置"></a>用户账户配置</h3><p>在linux中，所有的操作都使用(root)管理员进行操作，是一件极其危险的操作<br>为此我们需要创建另一个账户，并为这两个账户设置密码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># passwd</span><br></pre></td></tr></table></figure>
+<p>输入密码后按回车键，会让你再确认一次，再输入密码再回车<br>输入的密码是不会显示出来的，请仔细确认，再输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 创建新用户，例如叫 xiu</span><br><span class="line">$ useradd -m xiu</span><br><span class="line"></span><br><span class="line"># 给 xiu 设置</span><br><span class="line">$ useradd -m tom</span><br><span class="line"></span><br><span class="line">$ passwd tom</span><br><span class="line">然后输入密码按回车键，会让你再确认一次，再输入密码再回车。</span><br></pre></td></tr></table></figure>
+
+<h3 id="安装grub设置引导"><a href="#安装grub设置引导" class="headerlink" title="安装grub设置引导"></a>安装grub设置引导</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># 安装intel的CPU驱动</span><br><span class="line">$ pacman -S intel-ucode</span><br><span class="line"></span><br><span class="line"># 如果当前电脑存在其他系统，安装os-prober</span><br><span class="line">$ pacman -S os-prober</span><br><span class="line"></span><br><span class="line"># 安装grub</span><br><span class="line">$ pacman -S grub</span><br><span class="line">$ pacman -S efibootmgr</span><br><span class="line">$ grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ArchLinux</span><br><span class="line"></span><br><span class="line"># 生成 grub 配置</span><br><span class="line">$ grub-mkconfig -o /boot/grub/grub.cfg</span><br></pre></td></tr></table></figure>
+
+<h3 id="安装图形界面"><a href="#安装图形界面" class="headerlink" title="安装图形界面"></a>安装图形界面</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 安装 Gnome 图形界面</span><br><span class="line">$ pacman -S gnome gnome-extra</span><br><span class="line"></span><br><span class="line"># 设置Gnome桌面开机自启</span><br><span class="line">$ systemctl enable gdm</span><br></pre></td></tr></table></figure>
+
+<p>至此配置就基本完毕了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 退出当前系统到U盘</span><br><span class="line">$ exit</span><br><span class="line"></span><br><span class="line"># 重启系统</span><br><span class="line">$ reboot</span><br></pre></td></tr></table></figure>
+
+<p>不出问题的话就可以拔掉U盘正式进入系统了</p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 945186289@qq.com </span>
@@ -391,12 +414,12 @@
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>使用github pages + hexo 搭建博客</p>
-    <p><span class="copy-title">文章字数:</span><span class="post-count">253</span></p>
+    <p><span class="copy-title">文章标题:</span>安装Arch Linux</p>
+    <p><span class="copy-title">文章字数:</span><span class="post-count">795</span></p>
     <p><span class="copy-title">本文作者:</span><a href="javascript:void(0)" title="Seven">Seven</a></p>
-    <p><span class="copy-title">发布时间:</span>2019-10-24, 19:47:45</p>
-    <p><span class="copy-title">最后更新:</span>2019-10-25, 12:51:45</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/10/24/hexo-github-pages-create-own-blog/" title="使用github pages + hexo 搭建博客">https://sevenbee.github.io/2019/10/24/hexo-github-pages-create-own-blog/</a>
+    <p><span class="copy-title">发布时间:</span>2019-10-25, 13:23:50</p>
+    <p><span class="copy-title">最后更新:</span>2019-10-25, 16:19:48</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/10/25/how-to-install-archlinux/" title="安装Arch Linux">https://sevenbee.github.io/2019/10/25/how-to-install-archlinux/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
     </p>
