@@ -38,8 +38,6 @@
 
 
 
-<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js" ></script>
-
 <script src="/js/iconfont.js?v=1.0.1" ></script>
 
 </head>
@@ -295,6 +293,17 @@
         </span>
         
         
+        <span class="top-comment" title="跳转至评论区">
+            <a href="#comments">
+                评论:<span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </a>
+        </span>
+        
     </div>
     
     <div class="toc-ref">
@@ -387,6 +396,23 @@ deploy    Deploy your website.
     </p>
 </div>
 
+
+
+    <div id="comments"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'http://yoursite.com/2019/10/24/hexo%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/', // 可选。默认为 location.href
+        owner: 'sevenbee',
+        repo: 'sevenbee.github.io',
+        oauth: {
+            client_id: '7c4b8626563fa128d9a4',
+            client_secret: '1c809e61bc8eb7ac7acb0bc5dcb32257dc2f455b',
+        },
+    })
+    gitment.render('comments')
+</script>
 
 
 
